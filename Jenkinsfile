@@ -1,5 +1,7 @@
 node {
 
+env.PATH = "/bin:/usr/bin:/usr/local/bin:${env.PATH}"
+
     // Parameters for environment selection
     properties([
         parameters([
